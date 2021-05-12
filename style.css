@@ -1,0 +1,20 @@
+.row {
+    display: flex;
+}
+
+.cell {
+    width: 18px;
+    height: 18px;
+}
+
+.field {
+    background-color: chartreuse;
+}
+
+.apple {
+    background-color: red;
+}
+
+.snake {
+    background-color: blue;
+}
