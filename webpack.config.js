@@ -18,5 +18,9 @@ module.exports = {
             template: path.resolve(__dirname, '/src/assets/index.html')
         })
     ],
+    resolve: {
+        modules: [path.resolve(__dirname, './src'), 'node_modules'],
+        extensions: ['.js'],
+    },
     mode: process.env.NODE_ENV === 'production' ? 'production' : 'development'
 }
